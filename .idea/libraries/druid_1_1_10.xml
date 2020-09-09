@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="druid-1.1.10">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/com/devepkm/lib/druid-1.1.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Desktop/JDBC/3-资料/3-资料/2-驱动/03-数据库连接池驱动/druid-1.1.10/druid-1.1.10-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

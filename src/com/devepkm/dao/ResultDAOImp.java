@@ -21,7 +21,7 @@ public class ResultDAOImp {
         BeanHandler<Result>handler = new BeanHandler<>(Result.class);
         Result rs = null;
         try {
-            rs = runner.query(JDBCUtils.getConnection(), sql, handler);
+            rs = runner.query(JDBCUtils.getConnection(), sql, handler,args);
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }

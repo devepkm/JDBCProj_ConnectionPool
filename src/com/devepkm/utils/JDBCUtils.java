@@ -39,9 +39,9 @@ public class JDBCUtils {
             return source.getConnection();
         } catch (SQLException throwables) {
             throwables.printStackTrace();
-        } finally {
-            return null;
         }
+
+        return null;
 
     }
 

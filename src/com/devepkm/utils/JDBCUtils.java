@@ -2,10 +2,11 @@ package com.devepkm.utils;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.druid.pool.DruidDataSourceFactory;
+import org.apache.commons.dbutils.DbUtils;
 
 import javax.sql.DataSource;
 import java.io.InputStream;
-import java.sql.Connection;
+import java.sql.*;
 import java.util.Properties;
 
 public class JDBCUtils {
@@ -22,6 +23,25 @@ public class JDBCUtils {
         }
 
         return source.getConnection();
+    }
+
+    public static void closeResource(Connection conn, Statement ps, ResultSet rs) {
+
+        try {
+            DbUtils.close(conn);
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+        try {
+            DbUtils.close(ps);
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+        try {
+            DbUtils.close(rs);
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
     }
 
 }

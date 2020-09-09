@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="commons-dbutils-1.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/com/devepkm/lib/commons-dbutils-1.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Desktop/JDBC/3-资料/3-资料/2-驱动/04-dbutils/commons-dbutils-1.3-src.zip!/commons-dbutils-1.3-src/src/java" />
+      <root url="jar://$USER_HOME$/Desktop/JDBC/3-资料/3-资料/2-驱动/04-dbutils/commons-dbutils-1.3-src.zip!/commons-dbutils-1.3-src/src/test" />
+    </SOURCES>
+  </library>
+</component>
